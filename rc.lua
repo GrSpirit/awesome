@@ -45,7 +45,7 @@ beautiful.init(homedir .."/.config/awesome/themes/default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
-browser = "firefox"
+browser = "light"
 file_manager = "pcmanfm"
 editor = "subl3"
 editor_cmd = editor
@@ -336,10 +336,10 @@ globalkeys = awful.util.table.join(
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
               {description = "quit awesome", group = "awesome"}),
 
-    awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)          end,
-              {description = "increase master width factor", group = "layout"}),
-    awful.key({ modkey,           }, "h",     function () awful.tag.incmwfact(-0.05)          end,
-              {description = "decrease master width factor", group = "layout"}),
+    --awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)          end,
+    --          {description = "increase master width factor", group = "layout"}),
+    --awful.key({ modkey,           }, "h",     function () awful.tag.incmwfact(-0.05)          end,
+    --          {description = "decrease master width factor", group = "layout"}),
     awful.key({ modkey, "Shift"   }, "h",     function () awful.tag.incnmaster( 1, nil, true) end,
               {description = "increase the number of master clients", group = "layout"}),
     awful.key({ modkey, "Shift"   }, "l",     function () awful.tag.incnmaster(-1, nil, true) end,
