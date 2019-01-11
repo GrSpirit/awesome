@@ -1,0 +1,8 @@
+local/zsh 5.6.2-1
+    A very advanced and programmable command interpreter (shell) for UNIX
+local/zsh-autosuggestions 0.5.0-1
+    Fish-like autosuggestions for zsh
+local/zsh-history-substring-search 1.0.1-2
+    ZSH port of Fish history search (up arrow)
+local/zsh-syntax-highlighting 0.6.0-1
+    Fish shell like syntax highlighting for Zsh
